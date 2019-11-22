@@ -3,12 +3,14 @@ import React from "react";
 import "./styles/styles.scss";
 // import Curso from "./card";
 import Banner from "./banner"
-import Formulario from "./formulario"
+// import Formulario from "./formulario"
+import CourseGrid from "./CourseGrid"
 
 const App = () => (
   <>
     <Banner />
-    <Formulario name='EDteam'/>
+    {/* <Formulario name='EDteam'/> */}
+    <CourseGrid />
   </>
 );
 

@@ -28,6 +28,11 @@ const MainMenu = () => (
                 Formulario
               </NavLink>
             </li>
+            <li>
+              <NavLink to="/usuarios" activeClassName="activo">
+                Usuarios
+              </NavLink>
+            </li>
           </ul>
         </nav>
         <div className="main-menu-toggle to-l" id="main-menu-toggle"></div>

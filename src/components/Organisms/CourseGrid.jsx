@@ -1,5 +1,5 @@
 import React from "react"
-import Curso from "./card"
+import Curso from "../Molecules/card"
 const cursos = [
   {
     "id":1,

@@ -38,7 +38,7 @@ class Form extends Component {
     return (
       <div className="ed-grid">
         <h1>Formulario {this.props.name} </h1>
-        <h4>Fecha actual: {Math.ceil(this.state.date / 1000)}</h4>
+        <h4>Fecha actual: {Math.ceil(this.state.date / 1000 )}</h4>
         <form id="elemento">
           <div className="ed-grid m-grid-2">
             <div className="form__item">
